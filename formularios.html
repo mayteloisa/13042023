@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de fromulario</title>
+</head>
+<body>
+    <h1> Ejemplo de formulario</h1>
+<form action="proceso.php" method="post">
+    
+    <label for ="nombre"> nombre completo</label>
+    
+    <input type="text" required placeholder="nombre completo"name="nombre" id="nombre">
+
+<br>
+<br>
+    <input type="submit" value="enviar">
+    <input type="reset" value="reiniciar">
+
+    <br>
+    <br>
+
+    <label for="pass">Contraseña</label>
+    <input type="password" name="pass" id="pass">
+    <br>
+    <br>
+    <label for="hora">hora</label>
+    <input type="time" name="hora" id="hora">
+    <br>
+    <br>
+    <label for="edad">edad</label>
+    <input type="numbrer" name="edad" id="edad" min="0" max="125">
+    <br>
+    <br>
+    <label for="man">mañana</label>
+    <input type="checkbox" name="man" id="man" >
+    <br>
+    <br>
+    <label for="tarde">tarde</label>
+    <input type="checkbox" name="tar" id="tar" >
+    <br>
+    <br>
+    <label for="masc">masculino</label>
+    <input type="radio" name="genero" id="masc" >
+    <label for="fem">femenino</label>
+    <input type="radio" name="genero" id="fem" >
+    <br>
+    <br>
+    <label for="correo">correo</label>
+    <input type="email" name="correo" id="correo" >
+    <br>
+    <br>
+    <label for="archivo">archivo</label>
+    <input type="fail" name="archivo" id="archivo" >
+
+
+
+</form>
+
+</body>
+</html>
